@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "mapUrl": "map.png",
+  "startPosition": {
+    "x": 600,
+    "y": 350
+  },
+  "zones": [
+    {
+      "name": "sala_silencio",
+      "x": 80,
+      "y": 120,
+      "width": 420,
+      "height": 320,
+      "properties": {
+        "silent": true
+      }
+    },
+    {
+      "name": "escritorio_aberto",
+      "x": 650,
+      "y": 150,
+      "width": 650,
+      "height": 420,
+      "properties": {
+        "silent": false
+      }
+    }
+  ]
+}
